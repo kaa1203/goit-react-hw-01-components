@@ -1,0 +1,32 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px 2px #787575;
+}
+
+.avatar {
+    width: 48px;
+    border-radius: 5px;
+}
+
+span::after {
+    display: block;
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.online {
+    border-radius: 50%;
+    background-color: green;
+}
+
+.offline {
+    border-radius: 50%;
+    background-color: red;
+}
